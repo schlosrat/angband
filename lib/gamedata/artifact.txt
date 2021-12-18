@@ -111,7 +111,7 @@ graphics:~:y
 level:5
 weight:10
 cost:10000
-alloc:40:5 to 100
+alloc:50:5 to 100
 attack:1d1:0:0
 armor:0:0
 flags:NO_FUEL
@@ -124,10 +124,10 @@ desc:  Its light is imperishable, and near it darkness cannot endure.
 name:of Elendil
 base-object:light:Star
 graphics:~:y
-level:30
+level:10
 weight:5
 cost:30000
-alloc:4:30 to 100
+alloc:40:20 to 100
 attack:1d1:0:0
 armor:0:0
 flags:SEE_INVIS | NO_FUEL
@@ -139,10 +139,10 @@ desc:The shining Star of the North, a treasured heirloom of Elendil's house.
 name:of Thráin
 base-object:light:Arkenstone
 graphics:~:y
-level:50
+level:20
 weight:5
 cost:50000
-alloc:2:50 to 127
+alloc:20:30 to 100
 attack:1d1:0:0
 armor:0:0
 flags:SEE_INVIS | HOLD_LIFE | NO_FUEL
@@ -165,7 +165,7 @@ desc: sparks of white radiance shot with glints of the rainbow.
 # F:DRAIN_MANA | 
 #flags:NO_FUEL
 #flags:SEE_INVIS | TELEPATHY | 
-#flags:PROT_BLIND | AGGRAVATE | DRAIN_EXP | 
+#flags:PROT_BLIND | AGGRAVATE | 
 #flags:LIGHT
 #act:CLAIRVOYANCE
 #time:50+d50
@@ -646,7 +646,7 @@ alloc:7:30 to 100
 attack:3d6:-15:-15
 armor:0:-10
 # F:DRAIN_HP | DRAIN_MANA | 
-flags: SEE_INVIS | HOLD_LIFE | AGGRAVATE | DRAIN_EXP
+flags: SEE_INVIS | HOLD_LIFE | AGGRAVATE | 
 values:SPEED[-10]
 brand:POIS_3
 slay:DRAGON_5
@@ -986,7 +986,7 @@ alloc:2:65 to 127
 attack:4d6:-12:20
 armor:0:0 
 # F:DRAIN_MANA | DRAIN_HP | 
-flags:DRAIN_EXP | AGGRAVATE | PROT_BLIND
+flags:AGGRAVATE | PROT_BLIND
 values:STEALTH[-4] | WIS[-4] | RES_DARK[1] | RES_LIGHT[1] | RES_NETHER[1]
 brand:POIS_3
 desc:A mighty, heavy black spear, once wielded by the Lord of Darkness
@@ -1282,7 +1282,7 @@ base-object:bow:Short Bow
 level:25
 weight:30
 cost:9000
-alloc:10:30 to 100
+alloc:20:20 to 80
 attack:0d0:12:15
 armor:0:0
 flags:REGEN
@@ -1295,7 +1295,7 @@ base-object:bow:Short Bow
 level:25
 weight:30
 cost:9000
-alloc:10:30 to 80
+alloc:20:20 to 80
 attack:0d0:12:15
 armor:0:0
 flags:SLOW_DIGEST
@@ -1309,7 +1309,7 @@ base-object:bow:Long Bow
 level:40
 weight:40
 cost:35000
-alloc:5:40 to 127
+alloc:15:20 to 100
 attack:0d0:20:22
 armor:0:0
 values:DEX[3] | SPEED[1] | STEALTH[1] | SHOTS[10] | RES_DISEN[1]
@@ -1322,7 +1322,7 @@ base-object:bow:Long Bow
 level:30
 weight:40
 cost:20000
-alloc:5:40 to 127
+alloc:15:30 to 100
 attack:0d0:17:19
 armor:0:0
 flags:FREE_ACT | 
@@ -1335,7 +1335,7 @@ base-object:bow:Light Crossbow
 level:50
 weight:110
 cost:50000
-alloc:4:50 to 127
+alloc:14:40 to 100
 attack:0d0:10:14
 armor:0:0
 values:SPEED[10] | RES_FIRE[1]
@@ -1348,7 +1348,7 @@ base-object:bow:Heavy Crossbow
 level:60
 weight:200
 cost:35000
-alloc:5:60 to 127
+alloc:15:30 to 100
 attack:4d1:18:18
 armor:0:0
 flags:AGGRAVATE | PROT_BLIND
@@ -2006,7 +2006,7 @@ cost:0
 alloc:5:10 to 100
 attack:1d1:-12:-12
 armor:3:0
-flags:FREE_ACT | DRAIN_EXP | AGGRAVATE
+flags:FREE_ACT | AGGRAVATE
 values:STR[-3] | DEX[-3] | RES_FIRE[1] | RES_DISEN[1]
 desc:A pair of weakening gauntlets, named after Beren, who returned to Thingol
 desc: having lost to Carcharoth the hand that clasped a Silmaril.
@@ -2248,7 +2248,7 @@ alloc:1:100 to 127
 attack:0d0:15:15
 armor:0:0
 # F: DRAIN_MANA | DRAIN_HP | 
-flags:AGGRAVATE | DRAIN_EXP | SEE_INVIS | REGEN | TELEPATHY | STICKY
+flags:AGGRAVATE | SEE_INVIS | REGEN | TELEPATHY | STICKY
 flags:SUST_STR | SUST_DEX | SUST_CON | SUST_INT | SUST_WIS
 values:STR[5] | INT[5] | WIS[5] | DEX[5] | CON[5] | SPEED[5]
 values:RES_FIRE[3] | RES_COLD[3] | RES_ELEC[3] | RES_ACID[3] | RES_DARK[1]
