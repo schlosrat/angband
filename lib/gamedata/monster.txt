@@ -3970,7 +3970,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:15
-rarity:3
+rarity:99
 experience:50
 blow:CLAW:HURT:1d4
 blow:CLAW:HURT:1d4
@@ -3993,7 +3993,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:15
-rarity:3
+rarity:99
 experience:50
 blow:CLAW:HURT:1d4
 blow:CLAW:HURT:1d4
@@ -4016,7 +4016,7 @@ smell:20
 armor-class:60
 sleepiness:50
 depth:15
-rarity:2
+rarity:99
 experience:50
 blow:HIT:HURT:3d4
 blow:HIT:HURT:3d4
@@ -4113,7 +4113,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:15
-rarity:3
+rarity:99
 experience:50
 blow:CLAW:HURT:1d6
 blow:CLAW:HURT:1d6
@@ -4593,7 +4593,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:18
-rarity:3
+rarity:99
 experience:70
 blow:CLAW:HURT:3d3
 blow:CLAW:HURT:3d3
@@ -4617,7 +4617,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:18
-rarity:3
+rarity:99
 experience:70
 blow:CLAW:HURT:3d3
 blow:CLAW:HURT:3d3
@@ -4642,7 +4642,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:18
-rarity:3
+rarity:99
 experience:70
 blow:CLAW:HURT:3d3
 blow:CLAW:HURT:3d3
@@ -4969,7 +4969,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:20
-rarity:3
+rarity:99
 experience:200
 blow:BITE:HURT:1d8
 blow:BITE:HURT:1d8
@@ -4993,7 +4993,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:20
-rarity:3
+rarity:99
 experience:200
 blow:BITE:POISON:1d8
 blow:BITE:POISON:1d8
@@ -5038,7 +5038,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:20
-rarity:3
+rarity:99
 experience:200
 blow:BITE:ACID:1d8
 blow:BITE:ACID:1d8
@@ -6343,7 +6343,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:27
-rarity:4
+rarity:99
 experience:250
 blow:BITE:HURT:2d8
 blow:BITE:HURT:2d8
@@ -6368,7 +6368,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:27
-rarity:4
+rarity:99
 experience:250
 blow:BITE:HURT:2d8
 blow:BITE:HURT:2d8
@@ -8318,7 +8318,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:35
-rarity:4
+rarity:99
 experience:500
 blow:CLAW:HURT:2d8
 blow:CLAW:HURT:2d8
@@ -8344,7 +8344,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:35
-rarity:4
+rarity:99
 experience:500
 blow:CLAW:HURT:2d8
 blow:CLAW:HURT:2d8
@@ -8369,7 +8369,7 @@ smell:50
 armor-class:36
 sleepiness:0
 depth:35
-rarity:4
+rarity:99
 experience:500
 blow:CLAW:HURT:2d8
 blow:CLAW:HURT:2d8
@@ -9972,25 +9972,24 @@ name:Kavlax the Many-Headed
 base:dragon
 color:D
 speed:120
-hit-points:1300
+hit-points:1000
 hearing:20
 armor-class:102
 sleepiness:30
 depth:41
-rarity:3
+rarity:10
 experience:3000
 blow:BITE:HURT:2d12
 blow:BITE:HURT:2d12
 blow:BITE:HURT:2d12
 blow:BITE:HURT:2d12
 flags:UNIQUE | MALE | POWERFUL
-flags:DROP_4 | DROP_GOOD | ONLY_ITEM
+flags:DROP_4 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_NEXUS | NO_CONF
 flags:NO_SLEEP | NO_STUN | NO_HOLD
 innate-freq:4
-spells:BR_ACID | BR_COLD | BR_CHAO | BR_ELEC | BR_FIRE | BR_GRAV
-spells:BR_NEXU | BR_SHAR | BR_SOUN
+spells:BR_ACID | BR_COLD | BR_ELEC | BR_FIRE | BR_SHAR | BR_SOUN
 desc:A large dragon with a selection of heads, all shouting and arguing as they
 desc: look for prey, but each with its own deadly breath weapon.
 
@@ -10007,7 +10006,7 @@ smell:50
 armor-class:120
 sleepiness:10
 depth:42
-rarity:2
+rarity:99
 experience:600
 blow:BITE:FIRE:3d12
 blow:BITE:FIRE:3d12
@@ -10319,7 +10318,7 @@ smell:50
 armor-class:48
 sleepiness:0
 depth:43
-rarity:6
+rarity:99
 experience:600
 blow:CLAW:HURT:2d8
 blow:CLAW:HURT:2d8
@@ -11235,7 +11234,7 @@ smell:50
 armor-class:120
 sleepiness:0
 depth:51
-rarity:4
+rarity:99
 experience:5000
 blow:CLAW:HURT:2d12
 blow:CLAW:HURT:2d12
@@ -11260,7 +11259,7 @@ smell:50
 armor-class:120
 sleepiness:0
 depth:51
-rarity:4
+rarity:99
 experience:5000
 blow:CLAW:HURT:2d12
 blow:CLAW:HURT:2d12
@@ -11288,7 +11287,7 @@ smell:50
 armor-class:120
 sleepiness:0
 depth:51
-rarity:4
+rarity:99
 experience:5000
 blow:CLAW:HURT:2d12
 blow:CLAW:HURT:2d12
@@ -11401,7 +11400,7 @@ blow:CLAW:HURT:4d11
 blow:BITE:FIRE:4d15
 blow:BITE:FIRE:4d15
 flags:UNIQUE | MALE
-flags:DROP_GOOD | ONLY_ITEM
+flags:DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:BASH_DOOR
 flags:IM_FIRE
 innate-freq:8
@@ -11501,7 +11500,7 @@ blow:CLAW:HURT:4d11
 blow:CLAW:COLD:4d15
 blow:BITE:COLD:4d15
 flags:UNIQUE | MALE
-flags:DROP_GOOD | ONLY_ITEM
+flags:DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:BASH_DOOR
 flags:IM_COLD
 innate-freq:8
@@ -12278,7 +12277,7 @@ blow:CLAW:HURT:6d12
 blow:BITE:FIRE:7d14
 blow:BITE:FIRE:7d14
 flags:UNIQUE | MALE
-flags:DROP_GOOD | ONLY_ITEM
+flags:DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:BASH_DOOR
 flags:IM_FIRE
 innate-freq:5
@@ -12327,7 +12326,7 @@ plural:spiders of Gorgoroth
 base:spider
 color:P
 speed:120
-hit-points:4000
+hit-points:400
 light:-3
 hearing:30
 armor-class:180
@@ -12365,7 +12364,7 @@ smell:50
 armor-class:120
 sleepiness:0
 depth:64
-rarity:4
+rarity:99
 experience:10000
 blow:CLAW:HURT:2d12
 blow:CLAW:HURT:2d12
@@ -12782,7 +12781,7 @@ smell:50
 armor-class:120
 sleepiness:0
 depth:69
-rarity:6
+rarity:99
 experience:7000
 blow:CLAW:HURT:2d12
 blow:CLAW:HURT:2d12
@@ -13367,7 +13366,7 @@ smell:50
 armor-class:120
 sleepiness:0
 depth:74
-rarity:5
+rarity:99
 experience:10000
 blow:CLAW:HURT:3d12
 blow:CLAW:HURT:3d12
@@ -13453,7 +13452,7 @@ name:Ungoliant, the Unlight
 base:spider
 color:D
 speed:130
-hit-points:13000
+hit-points:3000
 light:-4
 hearing:40
 armor-class:240
@@ -13530,11 +13529,11 @@ blow:BITE:FIRE:8d14
 flags:UNIQUE | MALE
 flags:DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:BASH_DOOR
-flags:IM_FIRE | IM_POIS
+flags:IM_FIRE
 innate-freq:5
 spell-freq:3
 spells:BRAIN_SMASH | FORGET | SCARE
-spells:BR_FIRE | BR_POIS
+spells:BR_FIRE
 spells:S_HI_DRAGON
 desc:Glaurung is the father of all dragons, and was for a long time the most
 desc: powerful.  Though this is no longer so, he still has full command over his
@@ -14278,10 +14277,10 @@ desc:  It is said that he is fated never to die by the hand of mortal man.
 name:Ancalagon the Black
 base:ancient dragon
 color:D
-speed:130
-hit-points:10000
+speed:120
+hit-points:8000
 hearing:40
-armor-class:255
+armor-class:155
 sleepiness:20
 depth:85
 rarity:3
@@ -14293,10 +14292,10 @@ blow:BITE:HURT:10d14
 flags:UNIQUE | MALE
 flags:DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:BASH_DOOR
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
 innate-freq:4
 spell-freq:10
-spells:BR_ACID | BR_COLD | BR_ELEC | BR_FIRE | BR_POIS
+spells:BR_ACID | BR_COLD | BR_ELEC | BR_FIRE
 spells:S_HI_DRAGON | S_KIN
 friends:100:1d1:Kavlax the Many-Headed
 friends:100:1d1:Scatha the Worm
