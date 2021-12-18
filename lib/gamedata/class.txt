@@ -139,7 +139,7 @@ skill-disarm-phys:25:15
 skill-disarm-magic:20:10
 skill-device:18:7
 skill-save:18:10
-skill-stealth:0:0
+skill-stealth:0:1
 skill-search:10:12
 skill-melee:70:45
 skill-shoot:55:45
@@ -175,7 +175,7 @@ skill-disarm-phys:30:10
 skill-disarm-magic:35:12
 skill-device:36:13
 skill-save:30:9
-skill-stealth:2:0
+skill-stealth:2:1
 skill-search:10:12
 skill-melee:35:15
 skill-shoot:20:15
@@ -448,7 +448,7 @@ skill-disarm-phys:30:10
 skill-disarm-magic:30:10
 skill-device:24:10
 skill-save:30:10
-skill-stealth:3:0
+skill-stealth:3:1
 skill-search:12:12
 skill-melee:45:20
 skill-shoot:40:30
@@ -686,7 +686,7 @@ skill-disarm-phys:25:12
 skill-disarm-magic:25:12
 skill-device:30:10
 skill-save:32:12
-skill-stealth:2:0
+skill-stealth:2:1
 skill-search:10:14
 skill-melee:45:20
 skill-shoot:35:20
@@ -954,7 +954,7 @@ skill-disarm-phys:30:10
 skill-disarm-magic:35:12
 skill-device:36:13
 skill-save:30:9
-skill-stealth:2:0
+skill-stealth:2:1
 skill-search:10:12
 skill-melee:35:25
 skill-shoot:20:15
@@ -1211,7 +1211,7 @@ skill-disarm-phys:20:15
 skill-disarm-magic:20:10
 skill-device:24:10
 skill-save:25:11
-skill-stealth:0:0
+skill-stealth:0:1
 skill-search:10:12
 skill-melee:65:40
 skill-shoot:50:30
@@ -1476,7 +1476,7 @@ skill-disarm-phys:40:15
 skill-disarm-magic:30:10
 skill-device:28:10
 skill-save:32:10
-skill-stealth:3:0
+skill-stealth:3:1
 skill-search:15:15
 skill-melee:60:40
 skill-shoot:72:45
@@ -1586,7 +1586,7 @@ skill-disarm-phys:20:15
 skill-disarm-magic:20:10
 skill-device:24:10
 skill-save:18:10
-skill-stealth:-1:-1
+skill-stealth:-1:0
 skill-search:8:10
 skill-melee:65:40
 skill-shoot:35:15
