@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "store.h": "c",
+        "ui-display.h": "c",
+        "ui-menu.h": "c"
+    }
+}

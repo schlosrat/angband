@@ -29,14 +29,14 @@ flags:SHOW_DICE
 
 name:arrow:Arrow~
 graphics:light umber
-break:35
+break:0
 # max-stack:40
 flags:HATES_ACID | HATES_FIRE
 flags:SHOW_DICE
 
 name:bolt:Bolt~
 graphics:light umber
-break:20
+break:0
 # max-stack:40
 flags:HATES_ACID
 flags:SHOW_DICE

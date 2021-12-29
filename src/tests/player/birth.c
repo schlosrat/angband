@@ -8,7 +8,7 @@
 int setup_tests(void **state) {
 	struct player *p = mem_zalloc(sizeof *p);
 	z_info = mem_zalloc(sizeof(struct angband_constants));
-	z_info->pack_size = 23;
+	z_info->pack_size = 30; // SDR: was 23, tried 25, 30
 	z_info->quest_max = 1;
 	z_info->quiver_size = 10;
 	quests = &test_quest;

@@ -1079,12 +1079,15 @@ void write_character_dump(ang_file *fff)
 	file_putf(fff, "\n\n  [Character Inventory]\n\n");
 	for (i = 0; i < z_info->pack_size; i++) {
 		struct object *obj = player->upkeep->inven[i];
-		if (!obj) break;
-
-		object_desc(o_name, sizeof(o_name), obj,
-			ODESC_PREFIX | ODESC_FULL, player);
-		file_putf(fff, "%c) %s\n", gear_to_label(player, obj), o_name);
-		object_info_chardump(fff, obj, 5, 72);
+		// SDR: was: if (!obj) break;
+		if (!obj) {
+			file_putf(fff, "%c) empty\n", I2A(i));
+		} else { // SDR added else block around code
+			object_desc(o_name, sizeof(o_name), obj,
+				ODESC_PREFIX | ODESC_FULL, player);
+			file_putf(fff, "%c) %s\n", gear_to_label(player, obj), o_name);
+			object_info_chardump(fff, obj, 5, 72);
+		}
 	}
 	file_putf(fff, "\n\n");
 
@@ -1110,12 +1113,16 @@ void write_character_dump(ang_file *fff)
 		/* Dump all available items */
 		for (i = 0; i < z_info->store_inven_max; i++) {
 			struct object *obj = home_list[i];
-			if (!obj) break;
-			object_desc(o_name, sizeof(o_name), obj,
-				ODESC_PREFIX | ODESC_FULL, player);
-			file_putf(fff, "%c) %s\n", I2A(i), o_name);
+			// SDR: was: if (!obj) break;
+			if (!obj) {
+				file_putf(fff, "%c) empty\n", I2A(i));
+			} else { // SDR added else block around code
+				object_desc(o_name, sizeof(o_name), obj,
+					ODESC_PREFIX | ODESC_FULL, player);
+				file_putf(fff, "%c) %s\n", I2A(i), o_name);
 
-			object_info_chardump(fff, obj, 5, 72);
+				object_info_chardump(fff, obj, 5, 72);
+			}
 		}
 
 		/* Add an empty line */

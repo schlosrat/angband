@@ -9163,7 +9163,7 @@ hearing:100
 armor-class:48
 sleepiness:0
 depth:38
-rarity:4
+rarity:99
 experience:800
 blow:ENGULF:EXP_20:5d5
 flags:RAND_25
@@ -10710,7 +10710,7 @@ hearing:200
 armor-class:72
 sleepiness:0
 depth:47
-rarity:1
+rarity:99
 experience:1000
 blow:SPORE:DISENCHANT:7d7
 blow:SPORE:DISENCHANT:7d7
@@ -12134,7 +12134,7 @@ flags:ATTR_MULTI
 innate-freq:4
 spells:BR_ACID | BR_CHAO | BR_COLD | BR_DARK | BR_ELEC
 spells:BR_FIRE | BR_GRAV | BR_INER | BR_LIGHT | BR_NETH | BR_NEXU
-spells:BR_PLAS | BR_POIS | BR_SHAR | BR_SOUN | BR_TIME | BR_WALL
+spells:BR_PLAS | BR_POIS | BR_SHAR | BR_SOUN | BR_WALL
 desc:An awesome vortex of pure magic, power radiates from its frame.
 
 name:Saruman of Many Colours
@@ -12792,7 +12792,7 @@ flags:PASS_WALL
 flags:NO_CONF | NO_SLEEP | NO_HOLD | IM_NETHER | IM_DISEN
 flags:FORCE_SLEEP
 innate-freq:5
-spells:BR_NETH | BR_DISE | BR_TIME
+spells:BR_NETH | BR_DISE
 friends:100:2d7:Same
 desc:Bodies of death, receptacles of all foulness, they emerge like smoke from
 desc: the angles of time, ravenous and snarling and unsatisfied.
@@ -13379,7 +13379,7 @@ flags:ATTR_MULTI | FORCE_SLEEP
 innate-freq:5
 spells:BR_ACID | BR_CHAO | BR_COLD | BR_DARK | BR_DISE
 spells:BR_ELEC | BR_FIRE | BR_GRAV | BR_INER | BR_LIGHT | BR_NETH
-spells:BR_NEXU | BR_PLAS | BR_POIS | BR_SHAR | BR_SOUN | BR_TIME
+spells:BR_NEXU | BR_PLAS | BR_POIS | BR_SHAR | BR_SOUN
 spells:BR_WALL
 friends:100:2d7:Same
 desc:A shifting, swirling form.  It seems to be all colours and sizes and
@@ -13830,7 +13830,7 @@ flags:ATTR_MULTI
 innate-freq:5
 spell-freq:5
 spells:BLIND | CONF | SCARE
-spells:BR_POIS | BR_DARK | BR_NETH | BR_CHAO | BR_TIME
+spells:BR_POIS | BR_DARK | BR_NETH | BR_CHAO
 spells:S_DRAGON | S_HI_DRAGON
 desc:A massive dragon of hideous form.  From its shadowy aura comes the stench
 desc: of the underworld.  Its body is twisted by chaotic forces as it strives
@@ -14530,7 +14530,7 @@ flags:KILL_WALL
 flags:IM_DISEN
 flags:ATTR_MULTI
 innate-freq:3
-spells:BR_CHAO | BR_DISE | BR_TIME
+spells:BR_CHAO | BR_DISE
 desc:Howling through the disintegrating dungeon, this whirlpool of Unmagic rips
 desc: the enchantments from everything it touches.
 

@@ -7,7 +7,7 @@
 
 int setup_tests(void **state) {
 	z_info = mem_zalloc(sizeof(struct angband_constants));
-	z_info->store_inven_max = 24;
+	z_info->store_inven_max = 64; // SDR: was 24, tried 34
 	/* Do the bare minimum so sval and kind lookups work. */
 	z_info->k_max = 2;
 	z_info->ordinary_kind_max = 2;
