@@ -727,11 +727,11 @@ static int create_color(int i, int scale) {
 }
 
 
-#ifdef A_COLOR
 /**
  * Adjust the color tables if there's more than 16 available.
  */
 static void handle_extended_color_tables(void) {
+#ifdef A_COLOR
 	if (COLORS == 256 || COLORS == 88) {
 		/* If we have more than 16 colors, find the best matches. These numbers
 		 * correspond to xterm/rxvt's builtin color numbers--they do not
@@ -762,9 +762,22 @@ static void handle_extended_color_tables(void) {
 					colortable[COLOUR_DARK]);
 			}
 		}
+		if (data[0].win) {
+			/*
+			 * Adjust the background color on the standard screen
+			 * as well so separators between the terminals have
+			 * the same background as the rest.
+			 */
+			chtype term0_bkg = getbkgd(data[0].win);
+
+			if (getbkgd(stdscr) != term0_bkg) {
+				wbkgd(stdscr, term0_bkg);
+				wrefresh(stdscr);
+			}
+		}
 	}
-}
 #endif
+}
 
 
 /**
